@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+ 
+</head>
+<body>
+  <h1>Hangman Game</h1>
+  <div id="wordToGuess"></div>
+  <p>Incorrect guesses: <span id="incorrectGuesses">0</span></p>
+  <p>Guess a letter: <input type="text" id="guessInput" maxlength="1"></p>
+  <button onclick="guess()">Guess</button>
+  <p id="message"></p>
+  <script src="hangmanCore.js"></script>
+  
+</body>
+</html>
